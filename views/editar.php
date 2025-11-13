@@ -268,7 +268,6 @@
     </div>
 
     <script>
-        // Adicionando formatação automática para o campo de preço
         document.addEventListener('DOMContentLoaded', function() {
             const precoInput = document.getElementById('preco');
             
@@ -279,7 +278,6 @@
                 }
             });
             
-            // Foco automático no primeiro campo
             document.getElementById('nome').focus();
         });
     </script>

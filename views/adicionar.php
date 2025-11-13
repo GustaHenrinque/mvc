@@ -261,7 +261,6 @@
     </div>
 
     <script>
-        // Adicionando formatação automática para o campo de preço
         document.addEventListener('DOMContentLoaded', function() {
             const precoInput = document.getElementById('preco');
             
@@ -273,15 +272,13 @@
                     this.value = '0.00';
                 }
             });
-            
-            // Validação em tempo real para preço não negativo
+          
             precoInput.addEventListener('input', function() {
                 if (this.value < 0) {
                     this.value = '';
                 }
             });
-            
-            // Foco automático no primeiro campo
+ 
             document.getElementById('nome').focus();
         });
     </script>

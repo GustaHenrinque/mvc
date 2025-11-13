@@ -269,7 +269,6 @@
     </div>
 
     <script>
-        // Adicionando interatividade para destacar linhas da tabela
         document.addEventListener('DOMContentLoaded', function() {
             const rows = document.querySelectorAll('tbody tr');
             
